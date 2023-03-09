@@ -9,6 +9,7 @@ metadata:
     io.kompose.service: namenode
   name: namenode
 spec:
+  type: LoadBalancer
   loadBalancerIP: 34.168.169.84
   ports:
     - name: "9870"
@@ -20,5 +21,3 @@ spec:
   selector:
     io.kompose.service: namenode
   type: LoadBalancer
-status:
-  loadBalancer: {}
