@@ -20,5 +20,3 @@ spec:
     io.kompose.service: namenode
   loadBalancerIP: 34.168.169.84
   type: LoadBalancer
-status:
-  loadBalancer: {}
