@@ -13,9 +13,6 @@ spec:
     - name: "9870"
       port: 9870
       targetPort: 9870
-    - name: "9000"
-      port: 9000
-      targetPort: 9000
   selector:
     io.kompose.service: namenode
   loadBalancerIP: 34.168.169.84
